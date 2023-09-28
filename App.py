@@ -12,6 +12,7 @@ df: pd.DataFrame = conn.read(spreadsheet=url, worksheet=0)
 st.header('Spotify Music Analysis')
 st.subheader('Raw Data')
 st.write('Raw data taken from a kaggle dataset')
+st.write('Dataset link : https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023?select=spotify-2023.csv')
 st.dataframe(df)
 
 st.divider()
